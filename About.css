@@ -1,0 +1,45 @@
+@media (min-width:320px) and (max-width:480px){
+
+.navbar{
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: white;
+    /* z-index: -1; */
+}
+li{
+    list-style: none;
+}
+.images{
+    height: 45px;
+    width: 50px;
+    position: relative;
+    bottom: 8px;
+    left:10px;
+}
+.images2{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    bottom: 5px;
+}
+.images2:hover{
+    border:1px solid #98D1FF;
+}
+.nav-item{
+    display: grid;
+    gap:3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+}
